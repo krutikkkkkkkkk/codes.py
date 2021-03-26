@@ -19,3 +19,5 @@ while chk >= 1:
         bank = response['bank']
         country = response['country']
         print("\nValid BIN✅ \nBIN:" + bin1 + "\nBrand: " + brand + "\nBank: " + bank + "\nLevel: " + level + "\nType: " + binType + "\nCounrty: " + country+"\n")
+
+#reboot13
