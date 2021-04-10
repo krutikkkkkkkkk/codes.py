@@ -1,7 +1,5 @@
 import requests #pip install requests
-chk = 1
-while chk >= 1:
-    chk = chk + 1
+while True:
     api = "  "  #Get API Key From OpenWeathermap.org
     city = input("Enter City Name: ")
     request = requests.get("https://api.openweathermap.org/data/2.5/weather?q={}&appid={}".format(city,api))
